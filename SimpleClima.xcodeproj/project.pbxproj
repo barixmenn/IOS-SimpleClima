@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA74045D2831A84E004201CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74045C2831A84E004201CE /* AppDelegate.swift */; };
+		FA74045F2831A84E004201CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74045E2831A84E004201CE /* SceneDelegate.swift */; };
+		FA7404612831A84E004201CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7404602831A84E004201CE /* ViewController.swift */; };
+		FA7404642831A84E004201CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7404622831A84E004201CE /* Main.storyboard */; };
+		FA7404672831A84E004201CE /* SimpleClima.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7404652831A84E004201CE /* SimpleClima.xcdatamodeld */; };
+		FA7404692831A852004201CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7404682831A852004201CE /* Assets.xcassets */; };
+		FA74046C2831A852004201CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA74046A2831A852004201CE /* LaunchScreen.storyboard */; };
+		FA7404772831A852004201CE /* SimpleClimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7404762831A852004201CE /* SimpleClimaTests.swift */; };
+		FA7404812831A852004201CE /* SimpleClimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7404802831A852004201CE /* SimpleClimaUITests.swift */; };
+		FA7404832831A852004201CE /* SimpleClimaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7404822831A852004201CE /* SimpleClimaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7404732831A852004201CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7404512831A84E004201CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7404582831A84E004201CE;
+			remoteInfo = SimpleClima;
+		};
+		FA74047D2831A852004201CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7404512831A84E004201CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7404582831A84E004201CE;
+			remoteInfo = SimpleClima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7404592831A84E004201CE /* SimpleClima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleClima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA74045C2831A84E004201CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA74045E2831A84E004201CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA7404602831A84E004201CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7404632831A84E004201CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7404662831A84E004201CE /* SimpleClima.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleClima.xcdatamodel; sourceTree = "<group>"; };
+		FA7404682831A852004201CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA74046B2831A852004201CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA74046D2831A852004201CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7404722831A852004201CE /* SimpleClimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleClimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7404762831A852004201CE /* SimpleClimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClimaTests.swift; sourceTree = "<group>"; };
+		FA74047C2831A852004201CE /* SimpleClimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleClimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7404802831A852004201CE /* SimpleClimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClimaUITests.swift; sourceTree = "<group>"; };
+		FA7404822831A852004201CE /* SimpleClimaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClimaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7404562831A84E004201CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74046F2831A852004201CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7404792831A852004201CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7404502831A84E004201CE = {
+			isa = PBXGroup;
+			children = (
+				FA74045B2831A84E004201CE /* SimpleClima */,
+				FA7404752831A852004201CE /* SimpleClimaTests */,
+				FA74047F2831A852004201CE /* SimpleClimaUITests */,
+				FA74045A2831A84E004201CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA74045A2831A84E004201CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7404592831A84E004201CE /* SimpleClima.app */,
+				FA7404722831A852004201CE /* SimpleClimaTests.xctest */,
+				FA74047C2831A852004201CE /* SimpleClimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA74045B2831A84E004201CE /* SimpleClima */ = {
+			isa = PBXGroup;
+			children = (
+				FA74045C2831A84E004201CE /* AppDelegate.swift */,
+				FA74045E2831A84E004201CE /* SceneDelegate.swift */,
+				FA7404602831A84E004201CE /* ViewController.swift */,
+				FA7404622831A84E004201CE /* Main.storyboard */,
+				FA7404682831A852004201CE /* Assets.xcassets */,
+				FA74046A2831A852004201CE /* LaunchScreen.storyboard */,
+				FA74046D2831A852004201CE /* Info.plist */,
+				FA7404652831A84E004201CE /* SimpleClima.xcdatamodeld */,
+			);
+			path = SimpleClima;
+			sourceTree = "<group>";
+		};
+		FA7404752831A852004201CE /* SimpleClimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7404762831A852004201CE /* SimpleClimaTests.swift */,
+			);
+			path = SimpleClimaTests;
+			sourceTree = "<group>";
+		};
+		FA74047F2831A852004201CE /* SimpleClimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7404802831A852004201CE /* SimpleClimaUITests.swift */,
+				FA7404822831A852004201CE /* SimpleClimaUITestsLaunchTests.swift */,
+			);
+			path = SimpleClimaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7404582831A84E004201CE /* SimpleClima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7404862831A852004201CE /* Build configuration list for PBXNativeTarget "SimpleClima" */;
+			buildPhases = (
+				FA7404552831A84E004201CE /* Sources */,
+				FA7404562831A84E004201CE /* Frameworks */,
+				FA7404572831A84E004201CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleClima;
+			productName = SimpleClima;
+			productReference = FA7404592831A84E004201CE /* SimpleClima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7404712831A852004201CE /* SimpleClimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7404892831A852004201CE /* Build configuration list for PBXNativeTarget "SimpleClimaTests" */;
+			buildPhases = (
+				FA74046E2831A852004201CE /* Sources */,
+				FA74046F2831A852004201CE /* Frameworks */,
+				FA7404702831A852004201CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7404742831A852004201CE /* PBXTargetDependency */,
+			);
+			name = SimpleClimaTests;
+			productName = SimpleClimaTests;
+			productReference = FA7404722831A852004201CE /* SimpleClimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA74047B2831A852004201CE /* SimpleClimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA74048C2831A852004201CE /* Build configuration list for PBXNativeTarget "SimpleClimaUITests" */;
+			buildPhases = (
+				FA7404782831A852004201CE /* Sources */,
+				FA7404792831A852004201CE /* Frameworks */,
+				FA74047A2831A852004201CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA74047E2831A852004201CE /* PBXTargetDependency */,
+			);
+			name = SimpleClimaUITests;
+			productName = SimpleClimaUITests;
+			productReference = FA74047C2831A852004201CE /* SimpleClimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7404512831A84E004201CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FA7404582831A84E004201CE = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FA7404712831A852004201CE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA7404582831A84E004201CE;
+					};
+					FA74047B2831A852004201CE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA7404582831A84E004201CE;
+					};
+				};
+			};
+			buildConfigurationList = FA7404542831A84E004201CE /* Build configuration list for PBXProject "SimpleClima" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7404502831A84E004201CE;
+			productRefGroup = FA74045A2831A84E004201CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7404582831A84E004201CE /* SimpleClima */,
+				FA7404712831A852004201CE /* SimpleClimaTests */,
+				FA74047B2831A852004201CE /* SimpleClimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7404572831A84E004201CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA74046C2831A852004201CE /* LaunchScreen.storyboard in Resources */,
+				FA7404692831A852004201CE /* Assets.xcassets in Resources */,
+				FA7404642831A84E004201CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7404702831A852004201CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74047A2831A852004201CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7404552831A84E004201CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7404672831A84E004201CE /* SimpleClima.xcdatamodeld in Sources */,
+				FA7404612831A84E004201CE /* ViewController.swift in Sources */,
+				FA74045D2831A84E004201CE /* AppDelegate.swift in Sources */,
+				FA74045F2831A84E004201CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74046E2831A852004201CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7404772831A852004201CE /* SimpleClimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7404782831A852004201CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7404812831A852004201CE /* SimpleClimaUITests.swift in Sources */,
+				FA7404832831A852004201CE /* SimpleClimaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7404742831A852004201CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7404582831A84E004201CE /* SimpleClima */;
+			targetProxy = FA7404732831A852004201CE /* PBXContainerItemProxy */;
+		};
+		FA74047E2831A852004201CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7404582831A84E004201CE /* SimpleClima */;
+			targetProxy = FA74047D2831A852004201CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7404622831A84E004201CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7404632831A84E004201CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA74046A2831A852004201CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA74046B2831A852004201CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7404842831A852004201CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7404852831A852004201CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7404872831A852004201CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleClima/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barisdilekci.SimpleClima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7404882831A852004201CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleClima/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barisdilekci.SimpleClima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA74048A2831A852004201CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barisdilekci.SimpleClimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleClima.app/SimpleClima";
+			};
+			name = Debug;
+		};
+		FA74048B2831A852004201CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barisdilekci.SimpleClimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleClima.app/SimpleClima";
+			};
+			name = Release;
+		};
+		FA74048D2831A852004201CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barisdilekci.SimpleClimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleClima;
+			};
+			name = Debug;
+		};
+		FA74048E2831A852004201CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barisdilekci.SimpleClimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleClima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7404542831A84E004201CE /* Build configuration list for PBXProject "SimpleClima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7404842831A852004201CE /* Debug */,
+				FA7404852831A852004201CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7404862831A852004201CE /* Build configuration list for PBXNativeTarget "SimpleClima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7404872831A852004201CE /* Debug */,
+				FA7404882831A852004201CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7404892831A852004201CE /* Build configuration list for PBXNativeTarget "SimpleClimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74048A2831A852004201CE /* Debug */,
+				FA74048B2831A852004201CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA74048C2831A852004201CE /* Build configuration list for PBXNativeTarget "SimpleClimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74048D2831A852004201CE /* Debug */,
+				FA74048E2831A852004201CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA7404652831A84E004201CE /* SimpleClima.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA7404662831A84E004201CE /* SimpleClima.xcdatamodel */,
+			);
+			currentVersion = FA7404662831A84E004201CE /* SimpleClima.xcdatamodel */;
+			path = SimpleClima.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA7404512831A84E004201CE /* Project object */;
+}
